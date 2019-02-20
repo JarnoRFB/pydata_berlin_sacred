@@ -1,0 +1,10 @@
+{
+    "model": {
+        "path": "sklearn.svm.SVC",
+        "hyperparameters":{
+            "C": 1,
+            "gamma": 0.7,
+            "kernel": "rbf"
+        }
+    }
+}

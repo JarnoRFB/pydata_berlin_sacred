@@ -1,0 +1,9 @@
+{
+    "model": {
+        "path": "sklearn.ensemble.RandomForestClassifier",
+        "hyperparameters":{
+            "n_estimators": 20,
+            "criterion": "gini"
+        }
+    }
+}
