@@ -9,6 +9,7 @@ dependencies:
   - scikit-learn
   - rise
   - mongodb
+  - seaborn
   - pip:
     - git+https://github.com/IDSIA/sacred.git
     - incense
