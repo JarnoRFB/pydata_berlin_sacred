@@ -13,3 +13,4 @@ dependencies:
   - pip:
     - git+https://github.com/IDSIA/sacred.git
     - incense
+    - python-dotenv

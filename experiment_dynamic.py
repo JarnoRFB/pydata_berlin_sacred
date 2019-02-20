@@ -6,11 +6,8 @@ from sacred.observers import MongoObserver
 from sklearn import svm, datasets, model_selection
 from dotenv import load_dotenv
 
-env_path = "sacred_setup/.env"
-load_dotenv(dotenv_path=env_path)
-db_name = os.environ["MONGO_DATABASE"]
-mongo_uri = (f'mongodb://{os.environ["MONGO_INITDB_ROOT_USERNAME"]}:'
-             f'{os.environ["MONGO_INITDB_ROOT_PASSWORD"]}@localhost:27017/?authMechanism=SCRAM-SHA-1')
+db_name = "pydata_berlin"
+mongo_uri = None
 
 ex = Experiment('svm')
 
