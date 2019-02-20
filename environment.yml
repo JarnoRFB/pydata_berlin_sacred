@@ -1,5 +1,6 @@
 channels:
   - conda-forge
+  - anaconda
 dependencies:
   - python=3.7
   - numpy
@@ -7,6 +8,7 @@ dependencies:
   - pandas
   - scikit-learn
   - rise
+  - mongodb
   - pip:
     - git+https://github.com/IDSIA/sacred.git
     - incense
