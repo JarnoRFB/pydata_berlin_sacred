@@ -1,3 +1,4 @@
+"""Utility script to delete the collection in the db."""
 import os
 import pymongo
 from pymongo import MongoClient
@@ -5,7 +6,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 from pathlib import Path
 
-env_path = Path('.') / 'sacred_setup' / '.env'
+env_path = Path('.') / 'sacred_setup_protected' / '.env'
 load_dotenv(dotenv_path=env_path)
 
 DB_NAME = os.environ['MONGO_DATABASE']
