@@ -6,8 +6,15 @@ A short introduction to [sacred](https://github.com/IDSIA/sacred) for logging ma
 ## Installation
 If you want to run the notebook offline, you will need conda and docker:
 
-    $ conda create -f environment.yml
+    $ conda env create -f environment.yml
     $ cd sacred_setup
     $ docker-compose up -d
     $ cd ..
+    $ conda activate sacred
     $ jupyter notebook
+
+Once your finished stop all the running containers
+
+    $ cd sacred_setup
+    $ docker-compose stop
+    

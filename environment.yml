@@ -1,3 +1,4 @@
+name: sacred
 channels:
   - conda-forge
   - anaconda
