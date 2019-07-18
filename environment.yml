@@ -13,5 +13,6 @@ dependencies:
   - seaborn
   - pip:
     - git+https://github.com/IDSIA/sacred.git
+    - pymongo
     - incense
     - python-dotenv
