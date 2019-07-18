@@ -13,7 +13,7 @@ If you want to run the notebook offline, you will need conda and docker:
     $ conda activate sacred
     $ jupyter notebook
 
-Once your finished stop all the running containers
+Once you are finished stop all the running containers
 
     $ cd sacred_setup
     $ docker-compose stop
