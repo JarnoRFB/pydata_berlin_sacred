@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JarnoRFB/pydata_berlin_sacred/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JarnoRFB/pydata_berlin_sacred/master?filepath=index.ipynb)
 
 # Machine Learning Experiments with Sacred @PyData Berlin
 A short introduction to [sacred](https://github.com/IDSIA/sacred) for logging machine learning experiments.
